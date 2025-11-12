@@ -11,7 +11,7 @@ import java.util.Locale;
  *
  * @author UTPL
  */
-public class NewClass {
+public class Ejemplo03 {
     public static void main(String[] args) {
         
         // Condicionales simplesmain
