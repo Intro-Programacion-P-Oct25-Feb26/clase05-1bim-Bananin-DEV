@@ -23,7 +23,7 @@ public class Ejemplo4 {
         entrada.useLocale(Locale.US);
         double promedio;
         String nombreEstudiante;
-        
+
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
         entrada.nextLine();
@@ -31,7 +31,7 @@ public class Ejemplo4 {
         nombreEstudiante = entrada.nextLine();
         if (promedio >= 7.5 && promedio <= 10) { // Falso
             System.out.printf("Estudiante %s aprobado con un "
-                    + "promedio: %.2f\n",nombreEstudiante, promedio);
+                    + "promedio: %.2f\n", nombreEstudiante, promedio);
         } // -------------
     }
 
