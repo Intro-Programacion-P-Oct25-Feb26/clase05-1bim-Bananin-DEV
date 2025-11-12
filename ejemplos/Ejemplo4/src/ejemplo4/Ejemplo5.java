@@ -25,13 +25,14 @@ public class Ejemplo5 {
         String ciudad = entrada.nextLine(); // Quito
 
         if (!ciudad.equals("Loja")) {
+            // Asi se usa para cadena de palabra string
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
         }
 
         int numero = 10;
-
+        // Asi se usa para valor numerico double, int, etc
         if (numero != 10) {
             System.out.println("correcto");
         }
