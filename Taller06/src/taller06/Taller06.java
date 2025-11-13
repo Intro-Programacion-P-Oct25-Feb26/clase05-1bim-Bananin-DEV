@@ -52,7 +52,7 @@ public class Taller06 {
             System.out.printf("Apto para el descuento,"
                         + "su total es de: \n$%.2f", total);
         } else { 
-            System.out.printf("Descuento no otorgado, su total es de: \n$%.2f", total);
+            System.out.printf("Descuento no otorgado, su total es de: \n$%.2f", membresia);
         }
         
             //else 

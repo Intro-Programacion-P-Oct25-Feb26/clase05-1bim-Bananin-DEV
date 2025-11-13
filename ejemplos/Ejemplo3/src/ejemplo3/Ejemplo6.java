@@ -16,7 +16,7 @@ package ejemplo3;
  *
  * @author reroes
  */
-public class Ejemplo3 {
+public class Ejemplo6 {
 
     public static void main(String[] args) {
         // Condicionales aninados
@@ -24,7 +24,9 @@ public class Ejemplo3 {
         // >= 5 and < 7.5 Suspenso
         // >= 3 and < 5 Recuperación
         // < 3 Reprobado
-        double promedio = 4;
+        // cualquier otra nota, sera nota fuera de rango
+        // las notas no pueden pasar de 10
+        double promedio = 11;
 
         if (promedio >= 7.5) {
             System.out.printf("Estudiante aprobado con un "
@@ -39,15 +41,17 @@ public class Ejemplo3 {
                             + " %.2f", promedio);
 
                 } else {
-                    System.out.printf("Estudiante reprobado con un "
-                            + "promedio: %.2f\n", promedio);
+                    if ((promedio >= 0) && (promedio < 3)) {
+
+                        System.out.printf("Estudiante reprobado con un "
+                                + "promedio: %.2f\n", promedio);
+                    } else {
+                        System.out.printf("la nota %.2f esta fuera de rango", promedio);
+                       
+                        
+                    }
                 }
             }
         }
     }
 }
-
-            
-        
-
-    
